@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>C80</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <center>
+    <h3 style=" margin-top: 20px; margin-bottom: 20px; ">
+      Lista de alunos em minha sala
+    </h3>
+
+    <div>
+      <span>1</span>
+      <input type="text" placeholder="Nome do aluno" id="nomedoestudante1">
+      <br>
+
+      <span>2</span>
+      <input type="text" placeholder="Nome do aluno" id="nomedoestudante2">
+      <br>
+
+      <span>3</span>
+      <input type="text" placeholder="Nome do aluno" id="nomedoestudante3">
+      <br>
+
+      <span>4</span>
+      <input type="text" placeholder="Nome do aluno" id="nomedoestudante4">
+    </div>
+
+    <button onclick="enviar()" id="botaoenviar">
+      Enviar
+    </button>
+
+    <div id="mostrarnomes" style="font-weight: bold;">
+    </div>
+    <div id="mostrarnomessemvirgula" style="font-weight: bold;">
+    </div>
+
+    <button onclick="organizar()" id="botaoOrganizar">
+      Organizar
+    </button>
+  </center>
+
+</body>
+
+</html>
